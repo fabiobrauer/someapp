@@ -127,10 +127,7 @@ footer p{
   backdrop-filter: blur(3px);
 }
 
-.Sone{
-  display: flex;
-  flex-direction: row;
-}
+
 
 
 .main{
@@ -147,7 +144,7 @@ footer p{
   align-items: center;
   width: 85%;
   padding: 3em;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .Sfive{
@@ -211,9 +208,17 @@ button a{
   transform: scale(1.1);
   transition: .4s ease;
 }
-
-
-
+.flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+@media only screen and (max-width: 1030px) {
+  .flex{
+    display: flex;
+    flex-direction: column;}
+}
 @media only screen and (max-width: 992px) {
   .link{
     font-size: 1.75rem;
@@ -234,6 +239,18 @@ button a{
   }
   .section{
     width: 90%;
+  }
+  .flex{
+    display: flex;
+    margin: 0 auto;
+  }
+  .Sone{
+    margin: 0 auto;
+    width: 95%;
+  }
+  .Sone img{
+    width: 500px;
+    height: 300px;
   }
   .section h2{
     padding: 1rem;
@@ -281,6 +298,16 @@ button a{
   }
   .section{
     width: 90%;
+    padding: 1rem;
+  }
+
+  .Sone{
+    margin: 0 auto;
+    width: 95%;
+  }
+  .Sone img{
+    width: 500px;
+    height: 270px;
   }
   .section h2{
     padding: 1rem;
@@ -329,9 +356,19 @@ button a{
   .section{
     width: 100%;
     font-size: 1.2rem;
+    padding: 1rem;
+    margin:0;
   }
 
 
+  .Sone{
+    margin: 0 auto;
+    width: 95%;
+  }
+  .Sone img{
+    width: 350px;
+    height: 250px;
+  }
   .section h2{
     padding: 1rem;
   }
@@ -376,3 +413,74 @@ button a{
   }
 }
 
+
+@media only screen and (max-width: 360px){
+  .link{
+    font-size: 1.2rem;
+  }
+
+  h1{
+    font-size: 1em;
+    text-align: center;
+  }
+  .heroSection p{
+    font-size:1.5rem;
+    padding: 2rem;
+  }
+  .section{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .Sone{
+    margin: 0 auto;
+    width: 95%;
+  }
+  .Sone img{
+    width: 300px;
+    height: 200px;
+  }
+  .section h2{
+    padding: 1rem;
+  }
+  .imageGallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .round{
+    width: 300px;
+    height: 300px;
+  }
+
+  button a{
+    font-size: 1.2rem;
+  }
+
+  footer{
+    font-size: 1.2em;
+  }
+  h2{
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+  .Sthree{
+    margin: 0 auto;
+    padding: 1.2rem;
+    padding-top:4em;
+  } 
+
+  .Sfive{
+    margin: 0 auto;
+    padding: 1.2rem;
+    padding-top:4em;
+  }
+}

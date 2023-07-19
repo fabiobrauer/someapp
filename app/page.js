@@ -44,22 +44,22 @@ export default function Home() {
                  
 
                     
-                 <section className='section '>                      <h2>Agroforstsysteme</h2><br></br>
-                    <div className='Sone'>
-                      
 
-                      <div><p>
-                        Agroforstsysteme haben das Potential, die betriebswirtschaftliche und ökologische Bilanz landwirtschaftlicher Betriebe bedeutend und nachhaltig zu verbessern und dabei gleichzeitig die Unabhängigkeit und den persönlichen Gestaltungsspielraum der Landwirte zu stärken.
-                      </p><br></br>
-                      <p>
-                        Sie weisen eine große Bandbreite möglicher Maßnahmen auf, und können sowohl sehr kurz- als auch sehr langfristige Auswirkungen auf ganz unterschiedliche Betriebsbereiche haben. Diese komplexen Synergieeffekte gilt es bei der Planung zu berücksichtigen.
-                          Bei der Auswahl der für Ihren Betrieb passenden Maßnahmen bieten wir Ihnen individuelle und kompetente Beratung.
-                      </p>  </div>                  
-                      <Image src="/plantage2.jpg" width="800" height="400"></Image>
-                    
-                    </div>
-
-                  </section>
+                <h2>Agroforstsysteme</h2><br></br> 
+                <section className='section Sone'>                     
+                      <div className='flex'>
+                        <div>
+                            <p>
+                              Agroforstsysteme haben das Potential, die betriebswirtschaftliche und ökologische Bilanz landwirtschaftlicher Betriebe bedeutend und nachhaltig zu verbessern und dabei gleichzeitig die Unabhängigkeit und den persönlichen Gestaltungsspielraum der Landwirte zu stärken.
+                            </p><br></br>
+                            <p>
+                              Sie weisen eine große Bandbreite möglicher Maßnahmen auf, und können sowohl sehr kurz- als auch sehr langfristige Auswirkungen auf ganz unterschiedliche Betriebsbereiche haben. Diese komplexen Synergieeffekte gilt es bei der Planung zu berücksichtigen.
+                                Bei der Auswahl der für Ihren Betrieb passenden Maßnahmen bieten wir Ihnen individuelle und kompetente Beratung.
+                            </p>  
+                        </div>            
+                            <Image src="/plantage2.jpg" width="800" height="400"></Image>
+                      </div>
+                </section>
 
 
 
