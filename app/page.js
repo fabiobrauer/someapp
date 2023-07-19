@@ -33,14 +33,12 @@ export default function Home() {
                   <section className='section Sfour'>
                      <h2>Agroforstkulturen</h2>
                       <div className='imageGallery'>
-                      <div className='center'><Image src="/A7404296.jpg" width="400" height="400" className='round'/><h3>Agrorst mit Tierhaltung</h3></div>
-                      <div className='center'><Image src="/bäume.jpg" width="400" height="400" className='round'/><h3>Wertholzerzeugung</h3></div>
-                      <div className='center'><Image src="/Baumstämme.jpg" width="400" height="400" className='round'/><h3>Energieholz</h3></div>
+                      <div className='center'><Image src="/A7404296.jpg" width="400" height="400" className='round'/><h3>Agroforst mit Tierhaltung</h3></div>
+                      <div className='center'><Image src="/Baumstämme.jpg" width="400" height="400" className='round'/><h3>Wertholzerzeugung</h3></div>
+                      <div className='center'><Image src="/bäume.jpg" width="400" height="400" className='round'/><h3>Energieholz</h3></div>
                       <div className='center'><Image src="/ErdeHumus.jpg" width="400" height="400" className='round'/><h3>Humusaufbau und Bodenstruktur</h3></div>
                       </div>
                   </section>
-                    {/* 4kreise 1.agroforst mit tierhaltung 2.wertholzerzeugung 3.Energieholz 4.Humusaufbau und Bodenstruktur
-                      mit unterseiten zum anclicken*/}
                  
 
                     
@@ -68,13 +66,14 @@ export default function Home() {
                   <section className='section Stwo'>
                       <h2>Förderung von Agroforstmaßnahmen</h2>
                       <p>
-                      Der Bundestag hat am Mittwoch, 13. Januar 2021, einen Antrag von CDU/CSU und SPD zur Förderung der Agroforstwirtschaft mit dem Titel „Produktivität, Resilienz und Biodiversität steigern - Agroforstwirtschaft fördern“ (19/24389) angenommen. <br></br>Link zur Website des Bundestags.
+                      Der Bundestag hat am Mittwoch, 13. Januar 2021, einen Antrag von CDU/CSU und SPD zur Förderung der Agroforstwirtschaft mit dem Titel „Produktivität, Resilienz und Biodiversität steigern - Agroforstwirtschaft fördern“ (19/24389) angenommen. <br></br>
                       </p>
                   </section>
 
                   
+            <a rel="license" href="http://creativecommons.org/licenses/by/2.0/"><img alt="Creative Commons License"  src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution 2.0 Generic License</a>.
 
-                  <a rel="license" href="http://creativecommons.org/licenses/by/2.0/"><img alt="Creative Commons License"  src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution 2.0 Generic License</a>.
+                  
 
       </main> 
 
