@@ -5,18 +5,8 @@ import Link from 'next/link'
 export default function page() {
   return (
     <>
-          <header className="header">
-        <nav>
-        <ul>
-            <li><Link href={"/"} className='link'>Home</Link></li>
-            <li><Link href={"Kontakt"} className='link'>Kontakt</Link></li>
-            <li><Link href={"Leistung"} className='link'>Leistung</Link></li>
-            
-            
             {/* aktuelles mit Förderungsabschnitt */}
-        </ul>
-        </nav>
-    </header>
+
       <section className='section Sthree'>
         <h2>Leistungen</h2>
         <div>
