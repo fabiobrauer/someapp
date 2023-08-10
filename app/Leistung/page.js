@@ -25,7 +25,7 @@ export default function page() {
             </ul>
           <br></br>
             <p>
-              Erster Schritt ist die Auswahl geeigneter Agroforstkulturen sowie wie die Anordnung der Agroforstelemente auf der Betriebsfläche.<br></br> Entscheidend sind hierbei die persönlich gewünschten Arbeitsbedingungen ,das vorhandene Landschaftsrelief, die Bodeneigenschaften und der Wasserhaushalt.<br></br>
+              Erster Schritt ist die Auswahl geeigneter Agroforstkulturen sowie wie die Anordnung der Agroforstelemente auf der Betriebsfläche.<br></br> Entscheidend sind hierbei die persönlich gewünschten Arbeitsbedingungen, das vorhandene Landschaftsrelief, die Bodeneigenschaften und der Wasserhaushalt.<br></br>
               Bei der Praktischen Umsetzung geht es um die Organisation der durch die Implementierung von Agroforstsystemen entstehenden Arbeiten wie Pflanzung, Baumschnitt, Ernte, Aufastung sowie Kombinationssysteme mit Tierhaltung.<br></br>
               Schließlich sind bei der Vermarktung und der Erschließung neuer Vertriebswege Kreativität und Vernetzung gefragt.
               Die Möglichkeiten der Förderung und Direktzahlungen sind zur Zeit leider unübersichtlich und je nach Bundesland verschieden, ebenso die rechtlichen Rahmenbedingungen.

@@ -18,10 +18,10 @@ export default function Home() {
                   <section className='section Sfour'>
                      <h2>Agroforstkulturen</h2>
                       <div className='imageGallery'>
-                      <div className='center'><Image src="/A7404296.jpg" width="400" height="400" className='round'/><h3>Agroforst mit Tierhaltung</h3></div>
-                      <div className='center'><Image src="/Baumstämme.jpg" width="400" height="400" className='round'/><h3>Wertholzerzeugung</h3></div>
-                      <div className='center'><Image src="/bäume.jpg" width="400" height="400" className='round'/><h3>Energieholz</h3></div>
-                      <div className='center'><Image src="/ErdeHumus.jpg" width="400" height="400" className='round'/><h3>Humusaufbau und Bodenstruktur</h3></div>
+                      <div className='center'><Image src="/A7404296.jpg" alt='Chickens' width="400" height="400" className='round'/><h3>Agroforst mit Tierhaltung</h3></div>
+                      <div className='center'><Image src="/Baumstämme.jpg" alt='Wood' width="400" height="400" className='round'/><h3>Wertholzerzeugung</h3></div>
+                      <div className='center'><Image src="/bäume.jpg" alt='ForestAndWood' width="400" height="400" className='round'/><h3>Energieholz</h3></div>
+                      <div className='center'><Image src="/ErdeHumus.jpg" alt='Soil' width="400" height="400" className='round'/><h3>Humusaufbau und Bodenstruktur</h3></div>
                       </div>
                   </section>
                   <h2>Agroforstsysteme</h2><br></br> 
@@ -36,7 +36,7 @@ export default function Home() {
                                 Bei der Auswahl der für Ihren Betrieb passenden Maßnahmen bieten wir Ihnen individuelle und kompetente Beratung.
                             </p>  
                         </div>            
-                            <Image src="/plantage2.jpg" width="800" height="400"></Image>
+                            <Image src="/plantage2.jpg" alt='TreePlantation' width="800" height="400"></Image>
                       </div>
                 </section>
                 <section className='section Stwo'>
