@@ -1,0 +1,24 @@
+
+.Sthree{
+    font-size: 1.5em;
+}
+.Sthree ul{
+    list-style: none;
+    text-align: left;
+  }
+  
+.Sthree{
+    padding: 4em;
+    margin: 0 auto;
+  }
+  
+p{
+    font-size: 1.2em;
+}
+li{
+  font-size: 1.2em;
+}
+h2{
+
+  font-size: 1.6em;
+}

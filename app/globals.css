@@ -149,24 +149,11 @@ footer p{
   font-size: 1em;
 }
 
-.Sfive{
-  padding: 5em;
-  margin: 0 auto;
-}
 
 section h2{
   padding: 2em;
 }
 
-.Sthree ul{
-  list-style: none;
-  text-align: left;
-}
-
-.Sthree{
-  padding: 10em;
-  margin: 0 auto;
-}
 
 button{
   border-radius: 1.5rem;
@@ -216,6 +203,19 @@ button a{
   align-items: center;
   gap: 1.5rem;
 }
+
+
+.licence{
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  width: 200px;
+  align-items: center;
+  text-align: center;
+
+}
+
+
 @media only screen and (max-width: 1030px) {
   .flex{
     display: flex;
@@ -268,10 +268,6 @@ button a{
     justify-content: center;
     align-items: center;
   }  
-  .Sthree{
-    padding: 3em;
-    margin: 1em;
-  } 
 
   .Sfive{
     padding: 3em;
@@ -325,10 +321,6 @@ button a{
     justify-content: center;
     align-items: center;
   }
-  .Sthree{
-    padding: 1.2rem;
-    padding-top:3em;
-  } 
 
   .Sfive{
     padding: 1.2rem;

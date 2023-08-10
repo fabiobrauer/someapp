@@ -1,6 +1,7 @@
 import Image from 'next/image'
-import styles from './page.module.css'
-import Link from 'next/link'
+import  '../app/page.module.css'
+
+
 
 export default function Home() {
   return (
@@ -41,10 +42,18 @@ export default function Home() {
                 <section className='section Stwo'>
                       <h2>Förderung von Agroforstmaßnahmen</h2>
                       <p>
-                      Der Bundestag hat am Mittwoch, 13. Januar 2021, einen Antrag von CDU/CSU und SPD zur Förderung der Agroforstwirtschaft mit dem Titel „Produktivität, Resilienz und Biodiversität steigern - Agroforstwirtschaft fördern“ (19/24389) angenommen. <br></br>
+                        Der Bundestag hat am Mittwoch, 13. Januar 2021, einen Antrag von CDU/CSU und SPD zur Förderung der Agroforstwirtschaft mit dem Titel „Produktivität, Resilienz und Biodiversität steigern - Agroforstwirtschaft fördern“ (19/24389) angenommen. <br></br>
                       </p>
                   </section>
-            <a rel="license" href="http://creativecommons.org/licenses/by/2.0/"><img alt="Creative Commons License"  src="https://i.creativecommons.org/l/by/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution 2.0 Generic License</a>.
+            <div className='licence'>
+              <a rel="license" href="http://creativecommons.org/licenses/by/2.0/" >
+                <img alt="Creative Commons License"  src="https://i.creativecommons.org/l/by/2.0/88x31.png" />
+              </a>
+              <br />This work is licensed under a 
+                <a rel="license" href="http://creativecommons.org/licenses/by/2.0/">
+                  Creative Commons Attribution 2.0 Generic License
+                </a>
+            </div>
       </main> 
     </body>
   )
