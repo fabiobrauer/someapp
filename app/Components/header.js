@@ -2,8 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 export default function Header() {
-  return (
-  <>     
+  return (   
     <header className="header">
         <nav>
             <ul>
@@ -14,7 +13,5 @@ export default function Header() {
             </ul>
         </nav>
     </header>
-  </>
-
   )
 }
